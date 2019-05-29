@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Route1DepartmentComponent implements OnInit {
 
+  title = 'DemoTitle';
+  
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }
