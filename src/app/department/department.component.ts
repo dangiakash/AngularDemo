@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Route1DepartmentComponent implements OnInit {
 
-  title = 'DemoTitle';
-  
+ 
+  DemoTitle = "DemoTitle1";
+    
   constructor() { }
 
   ngOnInit() { 
+    console.log('First Error')
+    console.error('Second Error')     //  red
+    console.info('Third Error')
+    console.warn('Fourth Error')      //  yellow
   }
 
 }
