@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class Route1DepartmentComponent implements OnInit {
 
 
-    
+    var DemoServer = '';
+
   constructor() {
   
    }
