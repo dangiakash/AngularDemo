@@ -8,13 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class Route1DepartmentComponent implements OnInit {
 
  DemoVar = '';
- DemoVarLocal1 = '';
 
+ DemoVarLocal1 = '';
+ DemoVar2 = '';
+  DemoVar12 = '';
+  DemoVar11 = '';
     
   constructor() {
   var DemoVarLocal2 = '';
-    
+      
+  var DemoVar7 = '';
+  var DemoVar6 = '';
+  var DemoVar5 = '';
+  var DemoVar4 = '';
    }
+
+  
+ 
 
   ngOnInit() { 
     console.log('First Error')
@@ -24,6 +34,11 @@ export class Route1DepartmentComponent implements OnInit {
 
     var DemoVarLocal3 = '';
  
+    
+    var DemoVar10 = '';
+    var DemoVar9 = '';
+    var DemoVar8 = '';
+
   }
 
 }
