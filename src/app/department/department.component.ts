@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Route1DepartmentComponent implements OnInit {
 
  Demotitle = ''
+ DemoVar = ''
     
   constructor() { }
 
