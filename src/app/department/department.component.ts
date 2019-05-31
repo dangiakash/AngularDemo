@@ -7,16 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Route1DepartmentComponent implements OnInit {
 
- DemoVar = ''
+ DemoVar = '';
+ DemoVarLocal1 = '';
 
     
-  constructor() { }
+  constructor() {
+  var DemoVarLocal2 = '';
+    
+   }
 
   ngOnInit() { 
     console.log('First Error')
     console.error('Second Error')     //  red
     console.info('Third Error')
     console.warn('Fourth Error')      //  yellow
+
+    var DemoVarLocal3 = '';
+ 
   }
 
 }
